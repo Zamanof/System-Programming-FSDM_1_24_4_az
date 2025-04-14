@@ -49,13 +49,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SP 06. Waiting child", "SP 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SP 07", "SP 07", "{80021D6F-D093-4CCA-ACFB-188959802437}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 07. async await", "SP 07. async await\SP 07. async await.csproj", "{824FCD5A-448B-4B87-93EE-7B9F66B97EFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SP 07. async await", "SP 07. async await\SP 07. async await.csproj", "{824FCD5A-448B-4B87-93EE-7B9F66B97EFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 07. async love", "SP 07. async love\SP 07. async love.csproj", "{7D30501B-3527-49B2-9C94-9F19212B47C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SP 07. async love", "SP 07. async love\SP 07. async love.csproj", "{7D30501B-3527-49B2-9C94-9F19212B47C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 07. async inside", "SP 07. async inside\SP 07. async inside.csproj", "{B9F2F6F6-3F16-4BB9-B55D-62B03C6D3B6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SP 07. async inside", "SP 07. async inside\SP 07. async inside.csproj", "{B9F2F6F6-3F16-4BB9-B55D-62B03C6D3B6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 07. Async main", "SP 07. Async main\SP 07. Async main.csproj", "{4284012C-1249-4391-98A5-02207A87A0A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SP 07. Async main", "SP 07. Async main\SP 07. Async main.csproj", "{4284012C-1249-4391-98A5-02207A87A0A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SP 08", "SP 08", "{CF4F50C7-B411-4401-B2EE-78D555701EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 08. Parallel, PLINQ", "SP 08. Parallel, PLINQ\SP 08. Parallel, PLINQ.csproj", "{D7D56E9E-01E9-48E6-83F2-F9C43FB28F72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +147,10 @@ Global
 		{4284012C-1249-4391-98A5-02207A87A0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4284012C-1249-4391-98A5-02207A87A0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4284012C-1249-4391-98A5-02207A87A0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D56E9E-01E9-48E6-83F2-F9C43FB28F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D56E9E-01E9-48E6-83F2-F9C43FB28F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D56E9E-01E9-48E6-83F2-F9C43FB28F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D56E9E-01E9-48E6-83F2-F9C43FB28F72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -168,6 +176,7 @@ Global
 		{7D30501B-3527-49B2-9C94-9F19212B47C0} = {80021D6F-D093-4CCA-ACFB-188959802437}
 		{B9F2F6F6-3F16-4BB9-B55D-62B03C6D3B6A} = {80021D6F-D093-4CCA-ACFB-188959802437}
 		{4284012C-1249-4391-98A5-02207A87A0A8} = {80021D6F-D093-4CCA-ACFB-188959802437}
+		{D7D56E9E-01E9-48E6-83F2-F9C43FB28F72} = {CF4F50C7-B411-4401-B2EE-78D555701EA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47003848-5567-4939-8891-CD61D617F389}
